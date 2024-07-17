@@ -1,0 +1,60 @@
+body {
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/380/840/desktop-wallpaper-wooden-table-top-view-wood-table.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    position: absolute;
+    list-style: none;
+    margin-left: 1230px;
+}
+
+.header li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.header li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.title {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 900px;
+}
+
+div {
+    margin-left: 800px;
+    padding: 10px;
+}
+
+.h {
+    cursor:inherit;
+    
+    height: 35px;
+    background-color: rgb(207, 204, 204);
+}
+
+.checkbox {
+    cursor:pointer;
+    transform: scale(2);
+    margin-left: 35px;
+    border-radius: 100px;
+}
+
+.strikeout {
+    text-decoration: line-through;
+}
+.todo{
+    cursor: url("pen.png")20 19,auto;
+    display: flex;
+    padding: 14px;
+
+}
+
